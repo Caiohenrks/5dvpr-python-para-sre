@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "66bb07c6-2adc-480e-9ff0-8c95314f2342",
+		"name": "5DVPR - Python para SRE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17052279"
+	},
+	"item": [
+		{
+			"name": "Soma",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"var1\": 10,\r\n    \"var2\": 24\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api/soma",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"soma"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subtração",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"var1\": 10,\r\n    \"var2\": 24\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api/subtracao",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"subtracao"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Divisão",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"var1\": 10,\r\n    \"var2\": 24\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api/divisao",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"divisao"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiplicação",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"var1\": 10,\r\n    \"var2\": 24\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api/multiplicacao",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"multiplicacao"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Expiração",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/expiracao",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"expiracao"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
